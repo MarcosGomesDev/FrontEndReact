@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 80px;
+    background: linear-gradient(329.54deg, #29b6d1 0%, #4242f5 100%) no-repeat;
+    background-color: #4242f5;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    min-width: 100%;
+}
+
+body {
+    max-width: 100%;
+}
+
+.logo--image {
+    height: 80px;
+    padding: 4px 30px;
+} 
+
+.logo--image img {
+    height: 70px;
+    cursor: default;
+}
+
+.logo--text {
+    height: 80px;
+    cursor: default;
+}
+
+.logo--text h2 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 32px;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.login {
+    top: 25px;
+    float: right;
+    padding: 0px 30px;
+    margin-top: -95px;
+}
+
+.login img {
+    height: 70px;
+    cursor: default;
+}
+
+/*.login--button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: all ease 0.3s;
+    transform: scale(0.9);
+    color: #000;
+}
+
+.login--button:hover {
+    background: #ffcf02;
+    color: #000;
+    transform: scale(1.1);
+}*/
+

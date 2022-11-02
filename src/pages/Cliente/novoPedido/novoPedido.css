@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.base-products {
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 900px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 12px 3px #424242;
+}
+
+.main-products h2 {
+    text-align: center;
+}
+
+.separator {
+    margin-top: 15px;
+}
+
+.pedido-insert {
+    margin-bottom: 20px;
+}
+
+.main-products label {
+    margin-left: 33%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.main-products input {
+    width: 240px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 8px 2px #424242;
+    text-align: center;
+}
+
+.product {
+    margin-left: 35px;
+}
+
+.price {
+    margin-left: 53px;
+}
+
+.category {
+    margin-left: 23px;
+}
+
+.btn-CP {
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 43%;
+    margin-bottom: 25px;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 12px 3px #424242;
+    transition: all ease .3s;
+}
+
+.btn-CP:hover {
+    box-shadow: 4px 4px 16px 4px #424242;
+    transform: scale(1.1);
+    background-color: green;
+    color: white;
+}

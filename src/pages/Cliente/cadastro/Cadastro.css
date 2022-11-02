@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.cliente-insert {
+    align-content: center;
+    text-align: center;
+}
+
+.cliente-insert input{
+    background: aliceblue;
+    border: none;
+    box-shadow: 2px 2px 8px 2px #424242;
+    border-radius: 15px;
+    height: 33px;
+    width: 340px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.input-name {
+    margin-left: 38px;
+}
+
+.input-tel {
+    margin-left: 27px;
+}
+
+.input-email {
+    margin-left: 44px;
+}
+
+.input-cep, .input-cpf {
+    margin-left: 56px;
+}
+
+.cliente-insert label{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.page-main {
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.page-main form {
+    margin-top: 20px;
+     background-color: whitesmoke;
+     width: 800px;
+     border-radius: 20px;
+     box-shadow: 3px 3px 9px 3px #424242;
+}
+
+.container-form h2 {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    margin-left: 110px;
+}
+
+.btn-cadastro {
+    cursor: pointer;
+    margin-left: 46.5%;
+    margin-bottom: 30px;
+    width: 160px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 8px 2px #424242;
+    transition: all ease .3s;
+}
+
+.btn-cadastro:hover {
+    box-shadow: 2px 2px 8px 2px #424242;
+    background-color: #4242c5;
+    color: white;
+    transform: scale(1.1);
+}
